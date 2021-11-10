@@ -4,5 +4,10 @@ body {
 
 #cabecalho {
   position: fixed;
+  display:inline-block;
   top: 0;
+}
+
+#minha_foto {
+  display: inline-block;
 }
