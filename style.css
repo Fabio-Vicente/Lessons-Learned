@@ -3,6 +3,88 @@ body {
   max-width: 60%;
 }
 
+h3 {
+  background-color: rgb(191, 64, 59)/* rgb(73, 117, 66) */;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-size: large;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+li {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+table {
+  margin: 0 auto 0 15%;
+}
+
+th {
+  border-style: groove;
+}
+
+td {
+  border: ridge 3px;
+  text-align: center;
+}
+
+header img {
+  position: relative;
+  top: 6px;
+  margin-top: 65px;
+  padding: 18px 18px 12px;
+  background-color: rgb(119, 150, 69);
+}
+
+nav {
+  font-family: Trebuchet MS, Lucida Sans
+    Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+  line-height: 2em;
+  padding-top: 32px;
+  display: inline-block;
+}
+
+main ul , main ol {
+  border: 1px solid;
+}
+
+.lado-direito p {
+  font-size: 18px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  max-width: 60%;
+}
+
+.lado-direito {
+  display: inline-block;
+  max-width: 37%;
+}
+
+.lado-direito h3 {
+  max-width: 70%;
+  margin: 0 auto 12px;
+}
+
+.lessons_learned {
+  display: inline-block;
+  padding: 0 10%;
+}
+
+.lessons_to_learn {
+  display: inline-block;
+  padding: 0 10%;
+}
+
 #cabecalho {
   background-color: rgb(119, 150, 69);
   font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
@@ -36,23 +118,12 @@ body {
   color: white;
 }
 
-main h2 {
-  font-weight: 600;
-  text-decoration: underline;
-}
-
 #subtitulo h2 {
   font-family: Courier New, Courier, monospace;
   font-size: 28px;
   position: absolute;
   top: 90px;
   left: 232px;
-}
-
-p {
-  font-size: large;
-  text-align: justify;
-  line-height: 1.5em;
 }
 
 #subtitulo p {
@@ -64,61 +135,20 @@ p {
   left: 232px;
 }
 
-header img {
-  margin-top: 65px;
-  padding: 18px 18px 12px;
-  background-color: rgb(119, 150, 69);
+#licoes h2 {
+  font-weight: 600;
+  text-decoration: underline;
 }
 
-nav {
-  font-family: Trebuchet MS, Lucida Sans
-    Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
-  line-height: 2em;
-  padding-top: 32px;
-  display: inline-block;
+#prog {
+  max-width: 90%;
 }
 
-.lessons_learned {
-  display: inline-block;
-  padding: 0 10%;
-}
-
-.lessons_to_learn {
-  display: inline-block;
-  padding: 0 10%;
-}
-
-main ul , main ol {
-  border: 1px solid;
-}
-
-li {
-  font-size: 16px;
-  line-height: 2em;
-}
-
-aside {
-  padding-top: 24px;
-}
-
-h3 {
+#prog h2 {
   background-color: rgb(73, 117, 66);
-  font-size: x-large;
   color: white;
-  text-align: center;
-}
-
-table {
-  margin: 0 auto;
-}
-
-th {
-  border-style: groove;
-}
-
-td {
-  border: ridge 3px;
-  text-align: center;
+  border: black 1px solid;
+  padding: 4px;
 }
 
 #rodape {
