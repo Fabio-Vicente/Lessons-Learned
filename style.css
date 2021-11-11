@@ -1,8 +1,126 @@
 body {
   background-color: rgb(253, 251, 251);
+  max-width: 60%;
 }
 
 #cabecalho {
+  background-color: rgb(119, 150, 69);
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  color: white;
+  width: 60%;
   position: fixed;
   top: 0;
+}
+
+#titulo {
+  margin-left: 9px;
+}
+
+#VQV {
+  font-size: x-large;
+  float: right;
+  line-height: 150%;
+}
+
+#rocket {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin: 0;
+}
+
+#subtitulo {
+  background-color: rgb(39, 69, 48);
+  padding-right: 10px;
+  color: white;
+}
+
+main h2 {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#subtitulo h2 {
+  font-family: Courier New, Courier, monospace;
+  font-size: 28px;
+  position: absolute;
+  top: 90px;
+  left: 232px;
+}
+
+p {
+  font-size: large;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#subtitulo p {
+  font-family: Courier New, Courier, monospace;
+  font-size: 22px;
+  line-height: 2em;
+  position: absolute;
+  top: 160px;
+  left: 232px;
+}
+
+header img {
+  margin-top: 65px;
+  padding: 18px 18px 12px;
+  background-color: rgb(119, 150, 69);
+}
+
+nav {
+  font-family: Trebuchet MS, Lucida Sans
+    Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+  line-height: 2em;
+  padding-top: 32px;
+  display: inline-block;
+}
+
+.lessons_learned {
+  display: inline-block;
+  padding: 0 10%;
+}
+
+.lessons_to_learn {
+  display: inline-block;
+  padding: 0 10%;
+}
+
+main ul , main ol {
+  border: 1px solid;
+}
+
+li {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+aside {
+  padding-top: 24px;
+}
+
+h3 {
+  background-color: rgb(73, 117, 66);
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th {
+  border-style: groove;
+}
+
+td {
+  border: ridge 3px;
+  text-align: center;
+}
+
+#rodape {
+  margin-top: 1.5em;
 }
