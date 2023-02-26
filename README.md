@@ -46,7 +46,7 @@ For this one, was tested basic knowledges on HTML and CSS to create a static web
 
 ## Usage
 
-There is 4 ways for running this project.
+There are 4 ways for running this project.
 
 #### 1. Download ZIP:
 >
@@ -70,19 +70,19 @@ There is 4 ways for running this project.
 
 #### 3. Clone repository via SSH:
 >
->  - Use `git@github.com:Fabio-Vicente/Lessons-Learned.git` endpoint for clonning via SSH (it must be need set a SSH Key);
+>  - Use `git@github.com:Fabio-Vicente/Lessons-Learned.git` endpoint for clonning via SSH (it must be needed set a SSH Key);
 >  - Enter on `Lessons-Learned-main` cloned folder;
 >  - Open `index.html` file on your Web Browser.
 
 #### 4. Go to project deployed Web Page:
 >
->  - Go to https://fabio-vicente.github.io/Lessons-Learned/;
+>  - Visit https://fabio-vicente.github.io/Lessons-Learned/;
 
 <br />
 
 ## CodeSniffer
 
-The project code was tested by [CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/) - acessibility standart checker, according by WCAG 2.1 Level AAA and was evaluated with no errors
+The project code was tested by [CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/) - acessibility standart checker, according by WCAG 2.1 Level AAA, and was evaluated with no errors.
 
 ![CodeSniffer Report](assets/images/CodeSniffer-report.png)
 
@@ -90,7 +90,7 @@ The project code was tested by [CodeSniffer](https://squizlabs.github.io/HTML_Co
 
 Yes!
 
-Copy [HTML](index.html) file content and paste on [CodeSniffer Web Page](https://squizlabs.github.io/HTML_CodeSniffer/), choose standart to be evaluated, and `Run HTML_CodeSniffer`.
+Copy [HTML](index.html) file content and paste on [CodeSniffer Web Page](https://squizlabs.github.io/HTML_CodeSniffer/), choose the standart to be evaluated, and `Run HTML_CodeSniffer`.
 
 <br />
 
